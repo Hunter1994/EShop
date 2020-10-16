@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace EasyAbp.EShop.Products.Products
 {
+    [Serializable]
     public class  ProductSkuEto : IProductSku
     {
         public Guid Id { get; set; }
@@ -23,5 +25,7 @@ namespace EasyAbp.EShop.Products.Products
         public string MediaResources { get; set; }
 
         public Guid? ProductDetailId { get; set; }
+        
+        public Dictionary<string, object> ExtraProperties { get; set; }
     }
 }

@@ -10,17 +10,19 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\..\integration\EasyAbp.EShop\src\EasyAbp.EShop.HttpApi\EasyAbp.EShop.HttpApi.csproj" />
     <ProjectReference Include="..\..\..\..\..\plugins\Baskets\src\EasyAbp.EShop.Plugins.Baskets.HttpApi\EasyAbp.EShop.Plugins.Baskets.HttpApi.csproj" />
+    <ProjectReference Include="..\..\..\..\..\plugins\Coupons\src\EasyAbp.EShop.Plugins.Coupons.HttpApi\EasyAbp.EShop.Plugins.Coupons.HttpApi.csproj" />
     <ProjectReference Include="..\EShopSample.Application.Contracts\EShopSample.Application.Contracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="EasyAbp.PaymentService.HttpApi" Version="0.6.2" />
-    <PackageReference Include="EasyAbp.PaymentService.WeChatPay.HttpApi" Version="0.6.2" />
-    <PackageReference Include="Volo.Abp.Account.HttpApi" Version="3.0.4" />
-    <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="3.0.4" />
-    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="3.0.4" />
-    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="3.0.4" />
-    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="3.0.4" />
+    <PackageReference Include="EasyAbp.PaymentService.HttpApi" Version="1.5.1" />
+    <PackageReference Include="EasyAbp.PaymentService.WeChatPay.HttpApi" Version="1.5.1" />
+    <PackageReference Include="EasyAbp.PaymentService.Prepayment.HttpApi" Version="1.5.1" />
+    <PackageReference Include="Volo.Abp.Account.HttpApi" Version="3.1.2" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="3.1.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="3.1.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="3.1.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="3.1.2" />
   </ItemGroup>
 
 </Project>
